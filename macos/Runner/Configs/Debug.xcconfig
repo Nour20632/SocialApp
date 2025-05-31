@@ -1,0 +1,2 @@
+#include "package:social_app/package:social_app/Flutter/Flutter-Debug.xcconfig"
+#include "Warnings.xcconfig"
