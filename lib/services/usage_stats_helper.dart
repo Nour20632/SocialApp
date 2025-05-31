@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
-import 'dart:math' as math;
+
+import 'package:flutter/material.dart';
 
 class UsageStatisticsScreen extends StatefulWidget {
   final String userId;
@@ -99,9 +99,9 @@ class _UsageStatisticsScreenState extends State<UsageStatisticsScreen>
     final hours = minutes ~/ 60;
     final mins = minutes % 60;
     if (hours > 0) {
-      return '${hours}س ${mins}د';
+      return '$hoursس $minsد';
     }
-    return '${mins}د';
+    return '$minsد';
   }
 
   Color _getProgressColor(double progress) {
